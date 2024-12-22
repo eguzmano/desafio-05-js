@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 30px;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: lightblue;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  font-size: 1.2rem;
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.new-task {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  padding: 5px;
+  width: 70%;
+}
+
+button {
+  padding: 5px;
+  cursor: pointer;
+  width: 25%;
+}
+.tasks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  width: 100%;
+}
+table {
+  border-spacing: 20px;
+}
+table i {
+  color: #ff00007e;
+}
+
+.completed {
+  text-decoration: line-through;
+}
